@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Neuton:wght@300&display=swap');
+
+:root {
+  --primary: rgb(90, 172, 9);
+  --seconday: white;
+}
+
+body {
+  text-align: center;
+  margin: 0px;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+img{
+ position: absolute;
+ right: 13%;
+ top: 25%;
+}
+
+/* nav */
+
+nav {
+  background-color: var(--primary) ;
+  color: var(--seconday);
+}
+
+.heading {
+  text-shadow: 2px 1px rgb(4, 110, 4);
+  font-size: 3rem;
+  padding: 2%;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+
+/* texareas */
+textarea {
+  margin: 45px auto;
+  font-size: large;
+  display: flex;
+  padding: 18px;
+  border: 2px solid var(--primary);
+  font-family: 'Neuton', serif;
+  overflow: scroll;
+}
+
+
+/* button */
+
+button {
+  border-radius: 5px;
+  background-color:var(--primary);
+  color: white;
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+  border: 2px solid rgb(13, 175, 13);
+  font-size: 1.6rem;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+button:hover {
+  box-shadow: 2px 2px rgb(3, 129, 3);
+}
+
+/* footer */
+footer {
+  padding-bottom: 15px;
+  background-color:rgb(4, 136, 4);
+  color:var(--seconday);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+p {
+  line-height:2rem;
+  width: 60%;
+  margin: auto;
+  font-size: 1.1rem;
+  font-family: serif;
+}
